@@ -7,8 +7,8 @@ redux
 uiライブラリ
 chakuraUI
 
-auth
-firebase auth
+ci
+github actions
 
 host
 vercel
