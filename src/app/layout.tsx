@@ -1,9 +1,10 @@
-import { ChakuraProviders } from "@/chakura_ui/providers";
-import { DefaultFooter, FOOTER_HEIGHT } from "@/components/base/footer";
-import { DefaultNavigation, NAVIGATION_HEIGHT } from "@/components/base/header";
-import { ReduxProviders } from "@/redux/providers";
+import { ChakuraProviders } from "@/libs/chakura_ui/providers";
+import { DefaultFooter } from "@/app/_components/base/footer";
+import { DefaultNavigation } from "@/app/_components/base/header";
+import { ReduxProviders } from "@/libs/redux/providers";
 import { Box } from "@chakra-ui/react";
 import type { Metadata } from "next";
+import { FOOTER_HEIGHT, NAVIGATION_HEIGHT } from "@/constats";
 
 export const metadata: Metadata = {
   title: "Form Test",

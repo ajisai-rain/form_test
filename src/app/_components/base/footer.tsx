@@ -1,12 +1,12 @@
+import { FOOTER_HEIGHT } from "@/constats";
 import { Box } from "@chakra-ui/react";
 import { memo } from "react";
 
-export const FOOTER_HEIGHT = "200px";
 export const DefaultFooter = memo(() => {
   return (
-    <footer>
+    <Box as={"footer"} mt={"16px"}>
       <Box h={FOOTER_HEIGHT} w={"100%"} bg={"black"} />
-    </footer>
+    </Box>
   );
 });
 
